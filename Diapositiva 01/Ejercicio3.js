@@ -2,7 +2,7 @@
 
 
 const duplicados = [1, 2, 2, 3, 4, 4, 5];
-const sinDuplicar = duplicados.filter((valor, indice, arreglo) => {
-    return arreglo.indexOf(valor) === indice;
+const sinDuplicar = duplicados.filter((a, b, c) => {
+    return c.indexOf(a) === b;
 });
-console.log(sinDuplicar); // [1, 2, 3, 4, 5]
+console.log(sinDuplicar); 
